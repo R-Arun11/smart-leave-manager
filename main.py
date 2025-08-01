@@ -121,7 +121,7 @@ def export_leaves(emp_id):
 
     print(f"✅ Leave history exported to {emp_id}_leaves.csv")
 
-# ──────── MENU FLOWS ──────── #
+
 
 def apply_leave_flow():
     emp_id = input("Employee ID (or 'b' to go back): ").strip()
@@ -207,7 +207,7 @@ def menu():
         else:
             print("Invalid choice. Try 1-4.")
 
-# ──────── ENTRY POINT ──────── #
+
 
 if __name__ == "__main__":
     init_db()
